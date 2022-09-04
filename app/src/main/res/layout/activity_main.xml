@@ -20,7 +20,7 @@
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:id="@+id/bottomBar"
         app:backgroundColor="#3F51B5"
         app:textColor="@color/white"
@@ -33,9 +33,9 @@
         app:iconTint="#CBFFFFFF"
         app:iconTintActive="#FFFFFF"
         app:cornerRadius="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        app:menu="@menu/bottom_menu"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
